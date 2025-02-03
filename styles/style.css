@@ -1,0 +1,14 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.boxes:hover {
+    background-color: var(--someColor, "#3882f6");
+}
