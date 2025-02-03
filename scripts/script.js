@@ -9,7 +9,7 @@ for (let i = 0; i < 256; i++) {
     squareBox.style.boxSizing = "border-box";
     squareBox.style.borderRadius = "5px";
     squareBox.classList.add("boxes");
-    squareBox.style.setProperty("--someColor");
+    squareBox.style.setProperty("--someColor", "#3882f6");
 
 
     container.appendChild(squareBox);

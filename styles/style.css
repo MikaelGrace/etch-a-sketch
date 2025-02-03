@@ -10,5 +10,5 @@ body {
 }
 
 .boxes:hover {
-    background-color: var(--someColor, "#3882f6");
+    background-color: var(--someColor);
 }
