@@ -6,9 +6,13 @@ body {
     flex-wrap: wrap;
     /* background-color: red; */
     justify-content: space-between;
+    align-items: center;
     padding: 10px;
+    width: 100%;
 }
+
 
 .boxes:hover {
     background-color: var(--someColor);
+    opacity: 1;
 }
